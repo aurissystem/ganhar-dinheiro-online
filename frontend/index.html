@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Renda com IA</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>
+<h1>💰 Renda com Inteligência Artificial</h1>
+<p>Transforme seu celular em uma máquina de dinheiro</p>
+</header>
+
+<section class="hero">
+<h2>Ganhe dinheiro com ferramentas exclusivas</h2>
+<p>Automatize renda, gere ideias virais e escale seus ganhos</p>
+<button onclick="scrollToLogin()">Começar Agora</button>
+</section>
+
+<section class="beneficios">
+<div class="card">
+<h3>🚀 Ganhos Rápidos</h3>
+<p>Ferramentas prontas para gerar renda online</p>
+</div>
+
+<div class="card">
+<h3>🤖 Automação</h3>
+<p>Use IA para trabalhar por você</p>
+</div>
+
+<div class="card">
+<h3>💸 Monetização</h3>
+<p>Ganhe com anúncios, afiliados e vendas</p>
+</div>
+</section>
+
+<section class="login" id="login">
+<h2>Entrar / Criar Conta</h2>
+<input id="email" placeholder="Email">
+<input id="senha" type="password" placeholder="Senha">
+<button onclick="login()">Entrar</button>
+
+<h3>Criar Conta</h3>
+<input id="nome" placeholder="Nome">
+<input id="emailCad" placeholder="Email">
+<input id="senhaCad" type="password" placeholder="Senha">
+<button onclick="cadastrar()">Cadastrar</button>
+
+<p id="msg"></p>
+</section>
+
+<footer>
+<p>© 2026 - Plataforma de Renda Online</p>
+</footer>
+
+<script src="script.js"></script>
+<script>
+function scrollToLogin(){
+ document.getElementById('login').scrollIntoView({behavior:'smooth'});
+}
+</script>
+</body>
+</html>

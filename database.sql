@@ -1,0 +1,11 @@
+sql
+CREATE DATABASE saas;
+USE saas;
+
+CREATE TABLE usuarios(
+ id INT AUTO_INCREMENT PRIMARY KEY,
+ nome VARCHAR(100),
+ email VARCHAR(100),
+ senha VARCHAR(256),
+ premium BOOLEAN DEFAULT FALSE
+);
