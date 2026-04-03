@@ -3,41 +3,39 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Renda com IA</title>
+<title>Ganhe Dinheiro com IA</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
 <header>
-<h1>💰 Renda com Inteligência Artificial</h1>
-<p>Transforme seu celular em uma máquina de dinheiro</p>
+<h1>💰 Ganhe Dinheiro com IA</h1>
+<p>Mais de 1.200 pessoas já estão lucrando com esse método</p>
 </header>
 
 <section class="hero">
-<h2>Ganhe dinheiro com ferramentas exclusivas</h2>
-<p>Automatize renda, gere ideias virais e escale seus ganhos</p>
-<button onclick="scrollToLogin()">Começar Agora</button>
+<h2>Transforme seu celular em uma máquina de renda</h2>
+<p>Use ferramentas exclusivas para gerar dinheiro online</p>
+<button onclick="scrollLogin()">COMEÇAR AGORA</button>
 </section>
 
-<section class="beneficios">
-<div class="card">
-<h3>🚀 Ganhos Rápidos</h3>
-<p>Ferramentas prontas para gerar renda online</p>
-</div>
+<section class="prova">
+<h3>🔥 Resultados reais</h3>
+<p>✔ Usuários faturando até R$100/dia</p>
+<p>✔ Método simples e rápido</p>
+<p>✔ Funciona apenas com celular</p>
+</section>
 
-<div class="card">
-<h3>🤖 Automação</h3>
-<p>Use IA para trabalhar por você</p>
-</div>
-
-<div class="card">
-<h3>💸 Monetização</h3>
-<p>Ganhe com anúncios, afiliados e vendas</p>
-</div>
+<section class="ferramenta">
+<h2>Simulador de Ganhos</h2>
+<input id="valor" placeholder="Digite quanto quer ganhar">
+<button onclick="simular()">Simular</button>
+<p id="resultado"></p>
 </section>
 
 <section class="login" id="login">
-<h2>Entrar / Criar Conta</h2>
+<h2>Acesso</h2>
 <input id="email" placeholder="Email">
 <input id="senha" type="password" placeholder="Senha">
 <button onclick="login()">Entrar</button>
@@ -51,15 +49,17 @@
 <p id="msg"></p>
 </section>
 
+<section class="premium">
+<h2>🔒 Área Premium</h2>
+<p>Desbloqueie todas as ferramentas por apenas:</p>
+<h1>R$ 19,90</h1>
+<button onclick="comprar()">LIBERAR AGORA</button>
+</section>
+
 <footer>
-<p>© 2026 - Plataforma de Renda Online</p>
+<p>© 2026 Plataforma de Renda</p>
 </footer>
 
 <script src="script.js"></script>
-<script>
-function scrollToLogin(){
- document.getElementById('login').scrollIntoView({behavior:'smooth'});
-}
-</script>
 </body>
 </html>

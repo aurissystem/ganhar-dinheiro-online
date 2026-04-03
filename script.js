@@ -1,4 +1,17 @@
-javascript
+function scrollLogin(){
+ document.getElementById('login').scrollIntoView({behavior:'smooth'});
+}
+
+function simular(){
+ let valor = document.getElementById('valor').value;
+ document.getElementById('resultado').innerText =
+ "Você pode ganhar até R$" + (valor * 3) + " por mês usando IA";
+}
+
+function comprar(){
+ alert("Envie PIX para liberar acesso: exemplo@email.com");
+}
+
 const API = "http://localhost:8080";
 
 async function hashSenha(senha){
@@ -28,13 +41,7 @@ async function login(){
   headers:{"Content-Type":"application/json"},
   body:JSON.stringify({email,senha})
  }).then(r=>r.text()).then(t=>{
-   if(t.includes("OK")) window.location="dashboard.html";
+   if(t.includes("OK")) alert("Login feito");
    else msg.innerText=t;
  });
-}
-
-function pagar(){
- fetch(API+"/pix")
- .then(r=>r.text())
- .then(t=> document.getElementById('status').innerText=t);
 }

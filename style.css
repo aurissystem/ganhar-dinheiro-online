@@ -1,54 +1,44 @@
-body { margin:0; font-family:Arial; background:#0d1b2a; color:#fff; }
+body {
+  margin:0;
+  font-family:Arial;
+  background:#0d1b2a;
+  color:#fff;
+  text-align:center;
+}
 
-header { text-align:center; padding:20px; }
+header {
+  padding:20px;
+}
 
 .hero {
- text-align:center;
- padding:50px 20px;
- background:linear-gradient(120deg,#1b263b,#415a77);
+  padding:50px;
+  background:linear-gradient(120deg,#1b263b,#415a77);
 }
-
-.hero h2 { font-size:28px; }
 
 button {
- padding:12px;
- background:#00b4d8;
- border:none;
- color:#fff;
- margin-top:10px;
- width:200px;
+  padding:12px;
+  background:#00b4d8;
+  border:none;
+  color:#fff;
+  margin:10px;
+  cursor:pointer;
 }
 
-.beneficios {
- display:flex;
- flex-wrap:wrap;
- justify-content:center;
- gap:20px;
- padding:30px;
+.prova {
+  background:#1b263b;
+  padding:20px;
 }
 
-.card {
- background:#1b263b;
- padding:20px;
- border-radius:10px;
- width:250px;
- text-align:center;
-}
-
-.login {
- padding:30px;
- text-align:center;
+.ferramenta {
+  padding:30px;
 }
 
 input {
- display:block;
- margin:10px auto;
- padding:10px;
- width:250px;
+  padding:10px;
+  margin:5px;
 }
 
-footer {
- text-align:center;
- padding:20px;
- background:#000;
+.premium {
+  background:#000;
+  padding:30px;
 }
